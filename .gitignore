@@ -1,5 +1,10 @@
 *.ap_
-
+*.iml
+.idea
+.idea/*
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
 # Files for the Dalvik VM
 *.dex
 
