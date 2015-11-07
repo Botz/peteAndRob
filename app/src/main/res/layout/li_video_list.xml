@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/videoListImage"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:baselineAligned="false"
+        android:layout_alignBottom="@+id/videoListImage"
+        android:gravity="center_vertical"
+        android:id="@+id/videoListViewContainer"
+        android:background="@drawable/video_list_gradient">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/videoListTitle"
+            android:textSize="18dp"
+            android:textColor="#DDDDEE"
+            android:layout_margin="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
