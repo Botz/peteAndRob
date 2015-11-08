@@ -7,4 +7,10 @@ import java.util.ArrayList;
  */
 public interface VideoListPresenterOutput {
     void foundVideos(ArrayList<VideoListDisplayData> videosDisplaydata);
+
+    void clearVideoList();
+
+    void showProgressBar();
+
+    void hideProgressBar();
 }

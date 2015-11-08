@@ -1,11 +1,9 @@
 package pete.and.rob.videoList.di;
 
-import android.app.Activity;
-
 import dagger.Module;
 import dagger.Provides;
 import pete.and.rob.common.PRRestAdapter;
-import pete.and.rob.videoList.VideoLIstPresenter;
+import pete.and.rob.videoList.VideoListPresenter;
 import pete.and.rob.videoList.VideoListInteractor;
 import pete.and.rob.videoList.VideoListInteractorInput;
 import pete.and.rob.videoList.VideoListPresenterInput;
@@ -30,7 +28,7 @@ public class VideoListModule {
 
     @Provides
     public VideoListPresenterInput providesVideoListPresenter(VideoListInteractorInput interactor) {
-        VideoLIstPresenter presenter = new VideoLIstPresenter(mOutput, interactor);
+        VideoListPresenter presenter = new VideoListPresenter(mOutput, interactor);
         interactor.setInteractorOutput(presenter);
         return presenter;
     }
