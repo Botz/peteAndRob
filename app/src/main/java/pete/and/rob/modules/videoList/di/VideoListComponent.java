@@ -1,12 +1,12 @@
-package pete.and.rob.videoList.di;
+package pete.and.rob.modules.videoList.di;
 
 import dagger.Component;
 import pete.and.rob.ActivityModule;
-import pete.and.rob.application.PRAppComponent;
+import pete.and.rob.common.application.PRAppComponent;
 import pete.and.rob.PerActivity;
-import pete.and.rob.videoList.VideoLIstFragment;
-import pete.and.rob.videoList.VideoListInteractorInput;
-import pete.and.rob.videoList.VideoListPresenterInput;
+import pete.and.rob.modules.videoList.VideoLIstFragment;
+import pete.and.rob.modules.videoList.VideoListInteractorInput;
+import pete.and.rob.modules.videoList.VideoListPresenterInput;
 
 /**
  * Created by Botz on 01.11.15.

@@ -1,4 +1,4 @@
-package pete.and.rob.application;
+package pete.and.rob.common.application;
 
 import android.app.Application;
 

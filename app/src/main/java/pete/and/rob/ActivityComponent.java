@@ -3,7 +3,7 @@ package pete.and.rob;
 import android.app.Activity;
 
 import dagger.Component;
-import pete.and.rob.application.PRAppComponent;
+import pete.and.rob.common.application.PRAppComponent;
 
 /**
  * Created by Botz on 01.11.15.

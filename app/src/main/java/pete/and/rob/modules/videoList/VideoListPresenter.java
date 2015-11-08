@@ -1,4 +1,4 @@
-package pete.and.rob.videoList;
+package pete.and.rob.modules.videoList;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;

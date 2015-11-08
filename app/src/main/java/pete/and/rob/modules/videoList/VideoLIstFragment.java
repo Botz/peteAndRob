@@ -1,4 +1,4 @@
-package pete.and.rob.videoList;
+package pete.and.rob.modules.videoList;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -17,11 +17,11 @@ import javax.inject.Inject;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import pete.and.rob.ActivityModule;
-import pete.and.rob.application.PRApp;
+import pete.and.rob.common.application.PRApp;
 import pete.and.rob.R;
-import pete.and.rob.videoList.di.DaggerVideoListComponent;
-import pete.and.rob.videoList.di.VideoListComponent;
-import pete.and.rob.videoList.di.VideoListModule;
+import pete.and.rob.modules.videoList.di.DaggerVideoListComponent;
+import pete.and.rob.modules.videoList.di.VideoListComponent;
+import pete.and.rob.modules.videoList.di.VideoListModule;
 
 /**
  * Created by Botz on 01.11.15.

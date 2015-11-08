@@ -1,9 +1,8 @@
-package pete.and.rob.videoList;
+package pete.and.rob.modules.videoList;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.util.Log;
 
 import java.util.ArrayList;
 

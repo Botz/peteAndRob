@@ -1,13 +1,13 @@
-package pete.and.rob.videoList.di;
+package pete.and.rob.modules.videoList.di;
 
 import dagger.Module;
 import dagger.Provides;
 import pete.and.rob.common.PRRestAdapter;
-import pete.and.rob.videoList.VideoListPresenter;
-import pete.and.rob.videoList.VideoListInteractor;
-import pete.and.rob.videoList.VideoListInteractorInput;
-import pete.and.rob.videoList.VideoListPresenterInput;
-import pete.and.rob.videoList.VideoListPresenterOutput;
+import pete.and.rob.modules.videoList.VideoListPresenter;
+import pete.and.rob.modules.videoList.VideoListInteractor;
+import pete.and.rob.modules.videoList.VideoListInteractorInput;
+import pete.and.rob.modules.videoList.VideoListPresenterInput;
+import pete.and.rob.modules.videoList.VideoListPresenterOutput;
 
 /**
  * Created by Botz on 01.11.15.

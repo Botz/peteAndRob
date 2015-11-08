@@ -1,4 +1,4 @@
-package pete.and.rob.videoList;
+package pete.and.rob.modules.videoList;
 
 import android.support.v4.widget.SwipeRefreshLayout;
 import pete.and.rob.common.EndlessScrollListener;

@@ -1,4 +1,4 @@
-package pete.and.rob.videoList;
+package pete.and.rob.modules.videoList;
 
 import java.util.ArrayList;
 

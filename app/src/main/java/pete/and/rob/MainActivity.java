@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import pete.and.rob.application.PRApp;
-import pete.and.rob.videoList.VideoLIstFragment;
+import pete.and.rob.common.application.PRApp;
+import pete.and.rob.modules.videoList.VideoLIstFragment;
 
 public class MainActivity extends AppCompatActivity {
 
